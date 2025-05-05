@@ -12,4 +12,4 @@ def get_id(url):
             number = int(match.group(1))
             return str(number)
     except Exception as e:
-       print(f"There was an exception in " + __name__ + " :", e)
+       print(f"There was an exception in {get_id.__name__} :", e)

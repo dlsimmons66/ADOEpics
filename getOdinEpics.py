@@ -29,7 +29,7 @@ from getEpicsTally import get_epics_tally
 CORE_ID     = 'david'
 TOKEN       = 'xxxxxx'
 ORG_URL     = 'https://dev.auzure.com/org'
-PROJECT     = 'Zeus'
+PROJECT     = 'Odin'
 API_VERSION = '7.0'
 FIELDS      = 'System.Id,System.WorkItemType,System.Title,System.AreaPath,System.State,System.IterationPath,Custom.ProjectPhase,System.Parent'
 EXPAND_OPT  = 'relations'
