@@ -26,7 +26,7 @@ from getPrintTeamLogs import printTeamLogs
 from getEpicsTally import get_epics_tally
 
 # Variables
-CORE_ID     = 'david'
+CORE_ID     = 'IFYKYK'
 TOKEN       = 'xxxxxx'
 ORG_URL     = 'https://dev.auzure.com/org'
 PROJECT     = 'Odin'
@@ -36,9 +36,7 @@ EXPAND_OPT  = 'relations'
 LINK        = 'https://dev.azure.com/org/{PROJECT}/_workitems/edit/'
 GET_EPIC_URL = 'https://dev.azure.com/org/{PROJECT}/_apis/wiql'
 MON_QUERY_ID = 'xxxxxx'
-#headers     = {'Content_Type': 'application/json'}
-#auth        = HTTPBasicAuth(CORE_ID, TOKEN)
-TML_PATH    = "/users/" + CORE_ID + "/desktop/team/"
+TML_PATH    = "/users/{CORE_ID}/desktop/team/"
 
 # Date & Time for Logging
 now = datetime.datetime.now(pytz.timezone("America/Chicago"))
@@ -55,9 +53,9 @@ csvLogs      = "/users/" + CORE_ID + "/project/csv/project_epics." + today + ".c
 # For Example only - need to make external text file and import
 # data as to not break primary codebase
 TML = {
-    "David Simmons" : TML_PATH + "david_" + today + ".txt",
-    "John Smith"    : TML_PATH + "john_" + today + ".txt",
-    "Jane Doe"      : TML_PATH + "jane_" + today + ".txt",
+    "John Smith" : TML_PATH + "john_" + today + ".txt",
+    "Jane Doe"   : TML_PATH + "jane_" + today + ".txt",
+    "Fu Bar"     : TML_PATH + "fu_" + today + ".txt",
 }
 
 # List of Epic ID's
@@ -219,7 +217,6 @@ def get_epic_details_completed(epic_list_arry, epic_arry):
     
     except Exception as e:
         print(f"There was an exception in {get_epic_details_completed.__name__}: ", e)
-
 
 
 def main():
