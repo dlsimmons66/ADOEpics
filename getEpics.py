@@ -97,7 +97,7 @@ def get_epic_details_completed(epic_list_arry, epic_arry):
     total_cnt = 0
 
     if AdoDebug:
-        message = f"Executing 'get_epic_details_completed' function: " + str(epic_list_arry)
+        message = f"Executing 'get_epic_details_completed' function: {epic_list_arry}"
         getOpenFileWrite(message, debug_logs)
 
     try:
