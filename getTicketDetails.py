@@ -1,13 +1,13 @@
-import requests
-from requests.auth import HTTPBasicAuth
-
 '''
 This module retrieves the EPIC ID information from ADO. 
 
 In order to retrieve the data, the module requires the 
-CORE_ID, TOEKN, Project, and expansion options to properly 
+CORE_ID, TOKEN, Project, and expansion options to properly 
 execute.
 '''
+
+import requests
+from requests.auth import HTTPBasicAuth
 
 def get_ticket_details(cid,CORE_ID,TOKEN,ORG_URL,PROJECT,EXPAND_OPT,API_VERSION):
     headers     = {'Content_Type': 'application/json'}

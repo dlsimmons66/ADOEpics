@@ -1,4 +1,9 @@
-
+"""
+Simple Test program to call and test the epics lists array
+iteration and that it returns the expected results. All
+passed data is simulated information and does not reflect
+any real world information.
+"""
 
 # For Example only
 MO_MONITORING_EPICS    = ["123456", "234567", "345678"]

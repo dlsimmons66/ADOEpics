@@ -4,18 +4,19 @@ from getOpenFileWrite import openFileWrite
 This module prints the stories for each team member
 to the associated Team Member Log (TML) file.  
 
-TML_PATH = "/Users/david/Desktop/Python Course/"
+TML_PATH = "/users/{id}/{venv}/ADO Epics/logs/"
 TML = {
-    "David Simmons" : TML_PATH + "david.txt",
+    "john doe"   : TML_PATH + "john.txt",
+    "jane smith" : TML_PATH + "jane.txt",
 }
 
 area_path     = "observability"
-iteration     = "sprint4"
+iteration     = "Q1S1"
 story_id      = "098765"
 story_title   = "Science Logic SQL Rules"
 state         = "active"
-project_phase = "SDE"
-assigned_to   = "David Simmons"
+project_phase = "Q&A"
+assigned_to   = "John Doe"
 """
 
 def printTeamLogs(TML,area_path,iteration,story_id,story_title,state,project_phase,assigned_to):
