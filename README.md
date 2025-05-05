@@ -6,11 +6,11 @@ Version: 2.0
 Purpose: 
     "Simple Python script to extract scrum stories from 
     ADO for different Users. Originally written in Python 3.13.x 
-    to be used on a MacBook with Sequoia (15.4.x) or comperable 
+    to be used on a MacBook with Sequoia (15.4.x) or comparable 
     Linux based OS."
 
 # General Requirements:
-    MacOS Sequoia or comperable Linux OS (Ubuntu/RHEL)
+    MacOS Sequoia or comparable Linux OS (Ubuntu/RHEL)
     Python 3.13.x/Pip 3.x
 
 # Python imports required:
@@ -138,6 +138,7 @@ Future
     to return the expected results from the called module.
     All passed data is simulated information and does not 
     reflect any real world information or data.
+
 # aTest2
     Simple Test program to call and test the epics lists array
     iteration and that it returns the expected results. All

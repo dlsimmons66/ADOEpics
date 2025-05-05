@@ -5,7 +5,6 @@
 
 '''
 Monitoring & Observability Azure Epics 
-Created by David Simmons
 This Script is to collect Current Epics/Stories for the 
 Monitoring and Observability Team from Azure DevOps and 
 list them out in a simple text format for reporting and 
@@ -36,7 +35,7 @@ EXPAND_OPT  = 'relations'
 LINK        = 'https://dev.azure.com/org/{PROJECT}/_workitems/edit/'
 GET_EPIC_URL = 'https://dev.azure.com/org/{PROJECT}/_apis/wiql'
 MON_QUERY_ID = 'xxxxxx'
-TML_PATH    = "/users/{CORE_ID}/desktop/team/"
+TML_PATH    = "/users/{CORE_ID}/project/team/"
 
 # Date & Time for Logging
 now = datetime.datetime.now(pytz.timezone("America/Chicago"))

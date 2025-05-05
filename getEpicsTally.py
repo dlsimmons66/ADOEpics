@@ -1,3 +1,7 @@
+#! /usr/bin/env python3
+# written by David Simmons
+# Version 2.0 - 5/2/2025
+
 from getOpenFileWrite import openFileWrite
 import datetime, pytz
 
