@@ -147,7 +147,7 @@ Future
 
 
 # Disclaimer:
-"This script is provided 'as is' and without any warranty, 
+This script is provided 'as is' and without any warranty, 
 express or implied, including but not limited to the implied 
 warranties of merchantability, fitness for a particular 
 purpose, and non-infringement. I will not be liable for any 
@@ -155,6 +155,6 @@ damages, including but not limited to direct, indirect,
 incidental, special, consequential, or punitive damages, 
 arising out of the use or inability to use this script, 
 even if I have been advised of the possibility of such 
-damages." 
+damages.
 
 
