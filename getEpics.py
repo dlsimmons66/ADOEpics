@@ -16,7 +16,7 @@ import re, pytz, datetime, requests
 from dataclasses import dataclass, fields
 from requests.auth import HTTPBasicAuth
 
-# My Custom Modules
+# Custom Modules
 import getOpenFileWrite, getOpenTeamLogs
 from getId import get_id
 from getTicketDetails import get_ticket_details
